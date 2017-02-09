@@ -40,8 +40,6 @@ public class Keypad extends JFrame {
 	 */
 	public Keypad() {
 		
-		super("O2-UK			19:26			100%");
-		
 		FileWriter writer = null;
 		
 		try {
@@ -65,7 +63,7 @@ public class Keypad extends JFrame {
 				
 				if ( minute.length() == 1 ) minute = "0" + minute;
 				
-				Keypad.super.setTitle("O2-UK			" + (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) + ":" + minute + "			" + batteryLevel + "%"); 
+				Keypad.super.setTitle("O2-UK " + (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) + ":" + minute + "	" + batteryLevel + "%"); 
 		    
 			}
 			
@@ -81,7 +79,7 @@ public class Keypad extends JFrame {
 				
 				if ( batteryLevel > 0 ) {
 				
-					Keypad.super.setTitle("O2-UK			19:26			" + (batteryLevel--) + "%"); 
+					batteryLevel--;
 			    
 				}
 				
@@ -238,37 +236,23 @@ public class Keypad extends JFrame {
 		
 		for ( int number = 1; number <= 12; number++ ) {
 			
-			if ( number == 10 ) {
+			switch ( number ) {
 				
-				dialPad.add(new JButton("*"));
+				case 10: dialPad.add(new JButton("*")); break;
 				
-			} else if ( number == 11 ) {
+				case 11: dialPad.add(new JButton(0 + " (+)")); break;
 				
-				dialPad.add(new JButton(0 + " (+)"));
+				case 12: dialPad.add(new JButton("#")); break;
 				
-			} else if ( number == 12 ){
-				
-				dialPad.add(new JButton("#"));
-				
-			} else if ( number == 1 ) {
-				
-				dialPad.add(new JButton(number + ""));
+				case 1: dialPad.add(new JButton(number + "")); break;
 			
-			} else if ( number == 9 ) {
-				
-				dialPad.add(new JButton(number + " (WXYZ)"));
+				case 9: dialPad.add(new JButton(number + " (WXYZ)")); break;
 			
-			} else if ( number == 8 ) {
+				case 8: dialPad.add(new JButton(number + " (TUV)")); break;
 				
-				dialPad.add(new JButton(number + " (TUV)"));
+				case 7: dialPad.add(new JButton(number + " (PQRS)")); break;
 				
-			} else if ( number == 7 ) {
-				
-				dialPad.add(new JButton(number + " (PQRS)"));
-				
-			} else {
-				
-				dialPad.add(new JButton(number + " (" + (letters[((number-2)*3)]) + (letters[((number-2)*3)+1]) + (letters[((number-2)*3)+2]) +")"));
+				default: dialPad.add(new JButton(number + " (" + (letters[((number-2)*3)]) + (letters[((number-2)*3)+1]) + (letters[((number-2)*3)+2]) +")")); break;
 				
 			}
 			
@@ -296,8 +280,8 @@ public class Keypad extends JFrame {
 						// If we have a record of when this number (on the dial pad) was last pressed
 						if ( buttonPresses.containsKey(((JButton)button).getText()) ) {
 							
-							// Check whether that record tells us that this number was pressed less than 400 MS ago
-							if ( System.currentTimeMillis() - buttonPresses.get(((JButton)button).getText()) < 400 ) {
+							// Check whether that record tells us that this number was pressed less than 400 MS ago (or if a single character button is pressed)
+							if ( ((JButton)button).getText().length() > 1 && System.currentTimeMillis() - buttonPresses.get(((JButton)button).getText()) < 400 ) {
 								
 								/* If it was, find the index of the character that was just added to
 								 * the number output in the button label (e.g. if 1 is in the number output,
@@ -340,6 +324,7 @@ public class Keypad extends JFrame {
 								);
 						
 							} else {
+								
 								/* If there is no record of a previous button press or the number is
 								 * pressed at normal speed, add a number to the number output as normal
 								 */
