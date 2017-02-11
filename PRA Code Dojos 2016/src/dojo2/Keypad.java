@@ -1,4 +1,4 @@
-package Dojo2;
+package dojo2;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -69,7 +69,7 @@ public class Keypad extends JFrame {
 			
 		};
 		
-		Timer clockTimer = new Timer(1000, clockListener);
+		Timer clockTimer = new Timer(60000, clockListener);
 		
 		clockTimer.start();
 		

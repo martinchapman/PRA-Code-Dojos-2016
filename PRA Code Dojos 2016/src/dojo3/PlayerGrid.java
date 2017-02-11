@@ -1,4 +1,4 @@
-package Dojo3;
+package dojo3;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Graphics;
