@@ -17,8 +17,6 @@ public class Main {
 	  
 	  do {
     	 
-		 System.out.println("=======================");
-		 
 		 // Construct new deck.
          Deck deck = new Deck();
          
