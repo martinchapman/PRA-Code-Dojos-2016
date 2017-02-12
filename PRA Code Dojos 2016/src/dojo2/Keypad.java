@@ -40,6 +40,8 @@ public class Keypad extends JFrame {
 	 */
 	public Keypad() {
 		
+		Keypad.super.setTitle("O2-UK 00:00 100%"); 
+		
 		FileWriter writer = null;
 		
 		try {

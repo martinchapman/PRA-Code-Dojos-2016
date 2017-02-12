@@ -39,24 +39,27 @@
 
       <div class="two-thirds column" style="margin-top: 5%">
 
-        <h4>Code Dojo 2: `All in'</h4>
+        <h4>Code Dojo 2: `Stop callin', stop callin', I don't wanna code anymore'</h4>
+        
+         <p>In this  dojo,  working  together  as a group,  you will first work out  how best  to replicate  Apple’s iOS keypad,  as shown below (sorry Android  users):</p>
+		
+		<p><a href="images/phone.jpg"><img src="images/phone.jpg" class="u-max-full-width" /></a></p>
 		
 		<h5>Frames, Components and Layout Managers</h5>
 		
-		<p>You should now be familiar with the concepts of a  frame, and with the concept of components,  and  layout  managers  that can be used to position  those  components  in a certain  way.   In this  dojo,  working  together  as a group,  you will first work out  how best  to replicate  Apple’s iOS keypad,  as shown below (sorry Android  users):</p>
+		<p>You should now be familiar with the concepts of a  frame, and with the concept of components,  and  layout  managers  that can be used to position  those  components  in a certain  way.  
 		
-		<p><a href="images/phone.jpg"><img src="images/phone.jpg" class="u-max-full-width" /></a></p>
+		<p>You should use this knowledge to reconstruct the keypad.</p>
 		
 		<p>It’s likely that your finished product  won’t look exactly like the graphic shown (who could replicate  the  glamorous  UX offered by Apple),  but the  key thing  is the  components,  and their  relative  positions.</p>
 		
 		<p>For symbols, you can use keyboard punctuation (e.g. &lsaquo;), or you might like to consider using Unicode symbols that can be rendered  by Java  (see <a href="http://www.ssec.wisc.edu/~tomw/java/unicode.html">here</a> and <a href="http://www.fileformat.info/info/unicode/char/search.htm">here</a>).
 		
-		Below, I have given a proposed  top-level division of the frame into panels.
+		<p>Below, I have given a proposed  top-level division of the frame into panels.</p>
 
 		<p><a href="images/phone-annotated.jpg"><img src="images/phone-annotated.jpg" class="u-max-full-width" /></a></p>
 		
 		<h5>Action Listeners</h5>
-		
 		
 		<p>Next (as you probably  expected),  you will be bringing  life to the  static smartphone keypad  you built  during  the first Dojo.</p>
 		
@@ -84,14 +87,16 @@
 			
 			<li>‘2’ once would show a ‘2’ in the associated  output area, but if the key ‘2’ was pressed again,  quickly, then  the ‘2’ in the output area would transform into an ‘A’. Pressing the  ‘2’ button again,  quickly, would transform this  ‘A’ into  a ‘B’, and  so on for the remaining  characters on the  ‘2’ key.  Thus,  pressing  the  same key multiple  times  in short  succession would allow you to display each potential piece of output from that key, on a loop (i.e.  when pressing ‘2’, once ‘C’ is displayed,  pressing ‘2’ again would transform this ‘C’ back into a ‘2’, because there  are no further  characters associated with  the  key ‘2’, so we start again from the  beginning).   Pressing  a button multiple times  with a sufficient pause in between  each press would output the numeric  value associated  with that button multiple  times as normal.</li>
 			
-			<li>Let’s forget that Apple use this  dial pad  to only enter  phone numbers,  and  try  and replicate  the  functionality described  above  in the  GUI: pressing  a dial  pad  button once, or with a sufficient pause between multiple  presses, should show the associated number(s) as normal in the number output field. However, pressing this button again, quickly,  should  transform the  output number  into  the  first  character it  represents, and  then  into  the  second when the  number  is pressed  again,  and  so on.  To give an additional example to the one above, pressing the key ‘8’ once should show ‘8’ in the number  output, then  pressing  ‘8’ quickly again should transform this  ‘8’ into  a ‘T’. If ‘8’ is pressed, then  the user pauses before pressing ‘8’ again, another  ‘8’ should be added  to the number  output as normal.</li>
+			<p>Let’s forget that Apple use this  dial pad  to only enter  phone numbers,  and  try  and replicate  the  functionality described  above  in the  GUI: pressing  a dial  pad  button once, or with a sufficient pause between multiple  presses, should show the associated number(s) as normal in the number output field. However, pressing this button again, quickly,  should  transform the  output number  into  the  first  character it  represents, and  then  into  the  second when the  number  is pressed  again,  and  so on.  To give an additional example to the one above, pressing the key ‘8’ once should show ‘8’ in the number  output, then  pressing  ‘8’ quickly again should transform this  ‘8’ into  a ‘T’. If ‘8’ is pressed, then  the user pauses before pressing ‘8’ again, another  ‘8’ should be added  to the number  output as normal.</p>
 		
+			<p>You should avoid printing  spaces or parenthesis to the number  output.</p>
+		
+			<p>Even if you cannot  implement this functionality directly,  discuss with the rest of your group about  how you might do so, and which datastructures and method  calls would support your solution.</p>
+			
 		</ol>
 	
-		<p>You should avoid printing  spaces or parenthesis to the number  output.</p>
+		<p>In this dojo I want  you to think  carefully about  efficiency, and  how you can avoid code duplication.</p>
 		
-		<p>Even if you cannot  implement this functionality directly,  discuss with the rest of your group about  how you might do so, and which datastructures and method  calls would support your solution.</p>
-
 	  </div>
 	
 	  <div class="one-third column" style="margin-top: 5%; font-size: 14px;">
