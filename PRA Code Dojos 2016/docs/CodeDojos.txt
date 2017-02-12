@@ -1,0 +1,69 @@
+Students not expected to finish
+
+Role of the TA is difficult, can't stand in front of the class and get involved.
+
+But still the potential to do things wrong: students too shy to come up, students too shy to speak out, don't swap, class may be too loud and active, go off at a tangent (need directing back to how to complete the solution).
+
+Aim of meeting: How do I facilitate the session?
+
+Why were these sessions introduced: 
+
+1. Practice wasn't happening, added into PRA to make practice unavoidable
+
+2. SGTs are a place for students to hide: bring in the work you have done and the TA will go through it
+
+3. Programming cannot be taught just by talking about it
+
+Code Dojo Research from Kelly:
+
+Explain really clearly from the outset what you're trying to do and why
+
+Teachers think that the students know why we are doing what we are, but they don't. They need to be told specifically and told the benefits:
+
+1. Enable the students to practise and to watch other student's approaches to coding
+
+2. A great opportunity here with colleagues and peers
+
+3. Help them to see that this is a good and useful thing.
+
+They may be in the mode of going to SGTs to hide, get them out of this.
+
+Make everything clear.
+
+Orchestrate and organise it as they go.
+
+Person at keyboard the experience is hugely daunting. Sometimes people freeze. Remember some students are young, some doubt their abilities.
+
+This is the first time they will be asked to program in a public environment.
+
+If someone is good at it, the temptation is for the group to encourage them to stay at the computer. Have to encourage them to move away from the keyboard.
+
+If things aren't working, first person should work less as just the hands, and work more as a team: start them off, chuck in ideas to get them going.
+
+Get used to feeling like you're in charge, feel like you're moving around.
+
+Learn their names: say it out loud once you have been told it. Helps them to relax and feel included. Say their name again.
+
+Reassure them that after 5 minutes they'll be able to sit down. Some kind of time device that allows the student to see what's going on.
+
+Essential: make the atmosphere friendly and comfortable.
+
+Important how you react when somebody makes a mistake. Not laughing at mistakes in a negative way. We want people to be comfortable when mistakes occur. Exposed so that you have to make mistakes. Learn from everyone's mistakes rather than just our own.
+
+Keep the transition between pilot and co-pilot flowing.
+
+Facilitate conversation and problem solving between the pilot and the co-pilot.
+
+Potentially start with the explicit rule: the co-pilot must do all the thinking. The pilot should just be the hands.
+
+Job of TA is not to teach them how to do it, but mistakes that are identified as teaching moments should be the opportunity.
+
+Important to thank and applaud everyone once they move from the front.
+
+Consider rewarding those students who participate.
+
+Keep an eye on those students in the corner of the room.
+
+Get the students to talk through the code.
+
+You might be the person who prevents someone from failing.

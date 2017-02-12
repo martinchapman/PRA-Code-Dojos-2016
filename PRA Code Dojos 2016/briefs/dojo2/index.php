@@ -39,7 +39,7 @@
 
       <div class="two-thirds column" style="margin-top: 5%">
 
-        <h4>Code Dojo 2: `Stop callin', stop callin', I don't wanna code anymore'</h4>
+        <h4>Code Dojo 2: `Stop callin', stop callin', I don't wanna code anymore.'</h4>
         
          <p>In this  dojo,  working  together  as a group,  you will first work out  how best  to replicate  Apple’s iOS keypad,  as shown below (sorry Android  users), before adding functionality to this keypad.</p>
 		
@@ -116,6 +116,8 @@
 	  <div class="one-third column" style="margin-top: 5%; font-size: 14px;">
 
 		<p>In this dojo I want  you to think  carefully about  efficiency, and  how you can avoid code duplication.</p>
+		
+		<p>You should also bear in mind a separation between the `view' (what is seen) and the `model' (the state that is stored) in your solution.</p>
 		
       </div>
 	
