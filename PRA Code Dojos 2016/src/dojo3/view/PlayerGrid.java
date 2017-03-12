@@ -1,4 +1,4 @@
-package dojo3;
+package dojo3.view;
 import java.awt.Color;
 import java.awt.Graphics;
 
@@ -11,11 +11,6 @@ import javax.swing.JFrame;
  *
  */
 public class PlayerGrid extends JFrame {
-	
-	/**
-	 * Keeping the compiler happy...
-	 */
-	private static final long serialVersionUID = 1L;
 
 	/**
 	 * 
@@ -93,6 +88,8 @@ public class PlayerGrid extends JFrame {
 	
     /* (non-Javadoc)
      * @see java.awt.Window#paint(java.awt.Graphics)
+     * 
+     * Drawing directly onto frame.
      */
     public void paint(Graphics g) {
     

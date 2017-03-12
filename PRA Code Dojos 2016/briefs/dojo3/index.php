@@ -49,7 +49,7 @@
 		
 		<p>In our maze game, the board is split into a grid of tiles. Tiles can either be black, which represents an obstacle or a wall of the maze; red, which represents the players current position; green which represents the exit of the maze; or empty, which represents free space in which the player can move. The objective of the game is to move the red tile (the player) to be at the same position as the green tile, thus exiting the maze, while navigating around the obstacles.</p>
 
-		<p>A class <span class="code">PlayerGrid</span> is provided for you <a href="PlayerGrid.class">here</a>. You should extend this class to allow you to create and modify a frame filled with a grid of coloured tiles in your application.</p>
+		<p>A class <span class="code">PlayerGrid</span> is provided for you <a href="PlayerGrid.class">here</a> (with the docs <a href="doc">here</a>). You should extend this class to allow you to create and modify a frame filled with a grid of coloured tiles in your application.</p>
   		
   		<p>Create an empty grid by invoking the super constructor of <span class="code">PlayerGrid</span>, with a specified number of rows and columns, and a specified size of the frame.</p>
 		
@@ -63,7 +63,7 @@
 			
 			<li>Once the exit has been placed, your program should place the player at a random position on the grid. Note that a player should not be placed on top of an obstacle or on top of the exit.</li>
 			
-			<li>When the appropriate key – either up, down, left or right – is pressed on the keyboard of the computer running your application, your player should move in the direction denoted by that key. Before moving the player to the next tile in the specified direction, your program should check if the destination tile contains an obstacle. If it does not, then the player should not move in that direction. Note that you will need to use a <span class="code">KeyListener</span> to read keyboard input from the user, and the <span classkeyCodes 38, 40, 37 and 39 are up, down, left and right, respectively.</li>
+			<li>When the appropriate key – either up, down, left or right – is pressed on the keyboard of the computer running your application, your player should move in the direction denoted by that key. Before moving the player to the next tile in the specified direction, your program should check if the destination tile contains an obstacle. If it does not, then the player should not move in that direction. Note that you will need to use a <span class="code">KeyListener</span> to read keyboard input from the user, and the keyCodes 38, 40, 37 and 39 are up, down, left and right, respectively.</li>
 			
 			<li>It should not be possible to move the player off the edge of the window at any point.</li>
 			

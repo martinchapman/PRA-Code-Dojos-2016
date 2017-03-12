@@ -10,11 +10,6 @@ import javax.swing.JFrame;
  *
  */
 public class PlayerGrid extends JFrame {
-	
-	/**
-	 * Keeping the compiler happy...
-	 */
-	private static final long serialVersionUID = 1L;
 
 	/**
 	 * 
@@ -92,6 +87,8 @@ public class PlayerGrid extends JFrame {
 	
     /* (non-Javadoc)
      * @see java.awt.Window#paint(java.awt.Graphics)
+     * 
+     * Drawing directly onto frame.
      */
     public void paint(Graphics g) {
     
@@ -102,8 +99,6 @@ public class PlayerGrid extends JFrame {
     		for ( int column = 0; column < squares[row].length; column++ ) {
     			
     			if ( squares[row][column] != null ) {
-    			
-    				Color c = null;
     			
     				g.setColor(squares[row][column]);
     			
@@ -117,5 +112,5 @@ public class PlayerGrid extends JFrame {
     	}
     
     }
-	
+    
 }
