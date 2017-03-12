@@ -1,4 +1,5 @@
 package dojo2;
+
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -19,20 +20,8 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.Timer;
 
-/**
- * As always, it's good to annotate code you receive from us
- * with your own comments, to help you with your own understanding.
- * 
- * @author Martin
- *
- */
 public class Keypad extends JFrame {
 
-	/**
-	 * Keeping the compiler happy...
-	 */
-	private static final long serialVersionUID = 1L;
-	
 	private int batteryLevel;
 	
 	/**

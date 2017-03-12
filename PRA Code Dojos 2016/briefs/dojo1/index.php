@@ -114,7 +114,7 @@
 
 		<p>Please review the document marked `<a href="https://keats.kcl.ac.uk/pluginfile.php/2280237/mod_resource/content/1/WhatIsACodeDojo%3F.pdf">What is a Code Dojo?</a>' on KEATS before attending your first small group tutorial session.</p>
 		
-		<p>If you have any feedback about the format of your small group tutorial sessions, please let us know: programming@kcl.ac.uk.</p> 
+		<p>If you have any feedback about the format of your small group tutorial sessions, please let us know: <a href="mailto:programming@kcl.ac.uk">programming@kcl.ac.uk</a>.</p> 
 		
 		<p>If there are reasons noted in your KIP (if you are unaware of what a KIP is, then this instruction does not apply to you), or hitherto undisclosed reasons, that would make participating in the session in the proposed way difficult or impossible, please also let us know via the usual support channels.</p>
   
