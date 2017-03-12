@@ -1,4 +1,5 @@
-package dojo3.view;
+package dojo3;
+
 import java.awt.Color;
 import java.awt.Graphics;
 
@@ -101,8 +102,6 @@ public class PlayerGrid extends JFrame {
     			
     			if ( squares[row][column] != null ) {
     			
-    				Color c = null;
-    			
     				g.setColor(squares[row][column]);
     			
     				g.fillRect(column * tileWidth, row * tileHeight + heightOffset, tileWidth, tileHeight);
@@ -115,5 +114,7 @@ public class PlayerGrid extends JFrame {
     	}
     
     }
-	
+    
+    public static void main(String[] args) {}
+    
 }
