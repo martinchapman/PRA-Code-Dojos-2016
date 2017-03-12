@@ -16,6 +16,9 @@ public class MazeListener implements KeyListener {
 	 */
 	private MazeModel model;
 	
+	/**
+	 * @param model
+	 */
 	public MazeListener(MazeModel model) {
 		
 		this.model = model;
